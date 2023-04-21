@@ -11,3 +11,7 @@ Array.from(document.getElementsByTagName("input")).forEach((e, i) => {
     }
   });
 });
+
+const menu = document.getElementById('menu').addEventListener('click',()=>{
+  document.getElementsByTagName('ul')[0].classList.toggle('ul_active')
+})
