@@ -1,0 +1,22 @@
+@media screen and (max-width:1262px ) {
+    .search_box {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:1286px) {
+    .cards{
+        overflow-x: scroll;
+        gap: 10px;
+    }
+}
+@media screen and (max-width:1080px) {
+    .offers{
+        margin-top: 366px;
+    }
+}
+@media screen and (max-width:848px) {
+    .offers{
+        margin-top: 366px;
+    }
+}
