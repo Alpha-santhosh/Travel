@@ -1,51 +1,105 @@
-@media screen and (max-width:1262px ) {
-    .search_box {
-        width: 95%;
-    }
+@media screen and (max-width: 1262px) {
+  .search_box {
+    width: 95%;
+  }
+  .hero_text h1 {
+    width: 50%;
+    line-height: 40px;
+    font-size: 30px;
+  }
+  .hero_text p {
+    width: 60%;
+  }
 }
 
-@media screen and (max-width:1286px) {
-    .cards{
-        overflow-x: scroll;
-        gap: 10px;
-    }
+@media screen and (max-width: 1286px) {
+  .cards {
+    overflow-x: scroll;
+    gap: 10px;
+  }
 }
-@media screen and (max-width:1080px) {
-    .offers{
-        margin-top: 366px;
-    }
+@media screen and (max-width: 1080px) {
+  .offers {
+    margin-top: 366px;
+  }
 }
-@media screen and (max-width:848px) {
-    .offers{
-        margin-top: 366px;
-    }
-    .search_box {
-        width: 100%;
-    }
+@media screen and (max-width: 816px) {
+  .offers {
+    margin-top: 366px;
+  }
+  .search_box button {
+    background-color: black;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 20px;
+    position: absolute;
+    right: 20px;
+    top: 100px;
+  }
 }
-@media screen and (max-width:960px) {
-    .offers{
-        margin-top: 366px;
-    }
-    .search_box {
-        width: 100%;
-    }
-    #menu{
-        display: block;
-    }
-    ul{
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        width: 100px; 
-        height: max-content;
-        top:-500px;
-        right: 40%;
-        z-index: 100;
-        background-color: white;
-        list-style: none;
-        text-align: center;
-        padding: 10px;
-        border-radius: 10px;
-      }
+@media screen and (max-width: 848px) {
+  .offers {
+    margin-top: 366px;
+  }
+  .search_box {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 912px) {
+  .offers {
+    margin-top: 366px;
+  }
+  .search_box {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 960px) {
+  .hero_text h1 {
+    width: 80%;
+    line-height: 40px;
+    font-size: 26px;
+  }
+  .hero_text p {
+    width: 80%;
+    font-size: 14px;
+  }
+  .offers {
+    margin-top: 366px;
+  }
+  .search_box {
+    width: 100%;
+  }
+  #menu {
+    display: block;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100px;
+    height: max-content;
+    top: -500px;
+    right: 40%;
+    z-index: 100;
+    background-color: white;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .our {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 500px;
+  }
+  .right {
+    width: 50%;
+  }
+  .left {
+    width: 80%;
+  }
 }
